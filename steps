@@ -1,0 +1,14 @@
+create render account
+create repository on github
+craete .gitignore file 
+
+git init
+git add .
+git commit -m "feat: llm chatbot implementation with webserver
+
+pull project on github after
+render login 
+credential -> configure github
+add our repository
+
+gunicorn -w 4 -k uvicorn.workers.UvicornWorker app.main:app -> add this command in start
