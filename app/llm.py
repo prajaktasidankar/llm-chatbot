@@ -10,7 +10,7 @@ class LLM():
         load_dotenv()
 
         self.__client = InferenceClient(
-            api_key=os.getenv("HF_TOKEN"),
+            api_key=os.getenv("HF_Token"),
             provider="auto",
         )
 
